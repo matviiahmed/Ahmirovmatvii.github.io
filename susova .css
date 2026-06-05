@@ -1,0 +1,47 @@
+	body {
+		background-image:url("tung.png");
+		background-size:cover;
+		justify-content:center;
+	}
+	
+	.chose {
+		font-family:Comic Sans MS;
+		border-radius:30px;
+		display:inline-block;
+		border:solid 40px black;
+		background-color:white;
+		height:800px;
+	}
+	
+	.chose img {
+		border:solid 10px black;
+		height:380px;
+		width:850px;
+	}
+	
+	.menu {
+		left:20%;
+		top:25%;
+		height:2500px;
+		position:relative;
+		position:absolute;
+		width:4500px;
+	}
+	
+	p {
+		font-size:70px;
+	}
+	
+	.chose:hover {
+		animation: tung 2s ease-out;
+	}
+	
+	@keyframes tung {
+		0% {transform:scale(1,1 );}
+		25% {transform:scale(1.25,1.25);}
+		100% {transform:scale(1.25,1.25 );}
+	;}
+	
+	
+	
+	

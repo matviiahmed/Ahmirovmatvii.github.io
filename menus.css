@@ -1,0 +1,74 @@
+	body {
+		background-image:url("file:///C:/Users/%D0%9A%D1%83%D1%80%D1%81%D0%B8%20%D0%A8%D0%90%D0%93/Desktop/ahmed/tung.png");
+		background-size:cover;
+		justify-content:center;
+	}
+		
+	.golovna {
+		display:flex;
+		justify-content:end;
+	}
+	
+	.golovna img {
+		height:250px;
+		width:600px;
+		border:solid 10px black;
+		
+	}
+	.menu {
+		position:relative;
+		position:absolute;
+		border:solid 10px black;
+		background-color:white
+	}
+	.inf {
+		font-size:30px;
+		padding:20px;
+		text-align:center;
+		color:black;
+		
+	}
+	
+	.inf2 {
+		font-size:30px;
+		text-align:left;
+		width:500px;
+		height:500px;
+		border:solid 10px black;
+		background-color:white;
+	}
+	
+	.buttons {
+		display:flex;
+		display:inline-block;
+		justify-content:center;
+	}
+	
+	.inf3 {
+		display:flex;
+		position:relative;
+		align-items:end;
+	}
+	
+	.button {
+		height:70px;
+		width:130px;
+		font-size:30px;
+		background-color:#54FF82;
+		border-radius:5px;
+		font-family:arial;
+	}
+	
+	button:hover {
+		animation:rah 2s ease-out;
+	}
+	
+	@keyframes rah {
+		0% {transform:scale(1,1 );}
+		25% {transform:scale(1.13,1.13);}
+		100% {transform:scale(1.13,1.13 );}
+		
+	.pupa {
+		color:black;
+		text-align:center;
+	}

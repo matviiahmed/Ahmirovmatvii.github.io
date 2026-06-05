@@ -1,0 +1,38 @@
+	body {
+			background-image:url("file:///C:/Users/%D0%9A%D1%83%D1%80%D1%81%D0%B8%20%D0%A8%D0%90%D0%93/Desktop/ahmed/tung.png");
+			background-size:cover;
+			font-size:50px;
+			text-align:center;
+		}
+		
+		h1 {
+			border:solid 6px black;
+			background-color:white;
+		}
+		
+		hr {
+			width:80%;
+			height:13px;
+			border:solid 5px black;
+			background-color:white;
+			
+		}
+		
+		button {
+			height:50px;
+			border:solid 5px black;
+			background-color:white;
+			font-family:Comic Sans MS;
+			
+		}
+		
+		button:hover {
+		animation: we 2s ease-out;
+		background-color:#CCCCCC;
+		}
+		
+		@keyframes we {
+			0% {transform:scale(1,1 );}
+		25% {transform:scale(1.25,1.25);}
+		100% {transform:scale(1.25,1.25 );}
+		}
